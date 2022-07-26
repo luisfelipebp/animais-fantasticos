@@ -22,6 +22,7 @@ const tabNav = new TabNav(
 );
 tabNav.init();
 
+
 const modal = new Modal(
   '[data-modal="abrir"]',
   '[data-modal="fechar"]',
@@ -30,13 +31,17 @@ const modal = new Modal(
 modal.init();
 
 const tooltip = new Tooltip("[data-tooltip]");
+
 tooltip.init();
+
 
 const scrollAnima = new ScrollAnima('[data-anime="scroll"]');
 scrollAnima.init();
 
+
 const dropdownMenu = new DropdownMenu("[data-dropdown]");
 dropdownMenu.init();
+
 
 const menuMobile = new MenuMobile('[data-menu="button"]', '[data-menu="list"]');
 menuMobile.init();
